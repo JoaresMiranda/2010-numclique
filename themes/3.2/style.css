@@ -1,0 +1,271 @@
+/*
+Theme Name: NumClique
+Theme URI: http://www.numclique.net
+Description: Tema ajustado em novembro de 2010 para o blog de tecnologia NumClique.net.
+Version: 3.2
+Author: Joares Wallace Miranda
+*/
+
+* { margin:0; padding:0; }
+body { font:12px Arial, Helvetica, sans-serif; color:#333; background:url(img/bg-top.gif) repeat-x 0 0;}
+
+small { color:#999; font-size:11px; }
+img { border:none; }
+a { text-decoration:none; color:#F90; }
+a:hover { text-decoration:underline; }
+
+h2 { font:25px Georgia, "Times New Roman", Times, serif; background:url(img/ic_post.gif) no-repeat top left; padding-left:25px; margin-bottom:10px;  }
+
+#navegacaoMobile { display:none; }
+
+#Parceiro { width:100%; position:absolute; background-color:#000; text-align:center; top:0; display:none; }
+
+#main { width:960px; margin:auto; position:relative; padding-top:55px; }
+
+#busca h4,
+#menu h4,
+#iconesMidias h4,
+.publicidade h4,
+#monitorOnline h4  { display:none; }
+
+
+/* header */
+#header h1 { text-indent:-5000px; overflow:hidden; width:348px; height:78px; background:url(img/logo-numclique.png) no-repeat top left; margin-top:5px; }
+#header h1 a { width:348px; height:78px; display:block; }
+
+/* busca */
+#busca { position:absolute; top:5px; right:0; }
+#s { border:none; padding:3px 0 3px 6px; font:16px Georgia, "Times New Roman", Times, serif; width:283px; background:url(img/bg-campo-busca.gif) }
+#searchsubmit { position:relative; top:7px; left:-5px; padding:0; }
+
+
+/* menu */
+#menu { position:absolute; top:13px; left:0; }
+#menu ul li { list-style:none; display:inline; font:16px Georgia, "Times New Roman", Times, serif; margin-right:25px; }
+#menu ul li a { color:#FFF; }
+
+/* full banner */
+#fullBanner { position:absolute; top:70px; right:0; }
+
+/* super banner */
+#SuperBanner { width:728px; height:90px; position:absolute; top:145px; left:50%; margin-left:-364px; }
+
+/* conteudo */
+#conteudo { width:540px; float:left; margin-top:110px; }
+
+/* post */
+.cxPost { text-align:justify; margin:10px 0 15px 0; padding:0 0 5px 0; clear:both; width:540px; }
+.cxPost h2 a { color:#333; }
+.cxPost h2 a:hover { color:#F90; }
+
+.cxPost h3 { font:18px Georgia, "Times New Roman", Times, serif; margin-bottom:10px; }
+.cxPost h4 { font:16px Georgia, "Times New Roman", Times, serif; margin-bottom:10px; }
+.cxPost h5 { font:14px Georgia, "Times New Roman", Times, serif; margin-bottom:10px; }
+
+#botoesShare { width:540px; height:30px; clear:both; margin:10px 0; }
+#botoesShare p { width:100px; float:left; }
+
+.txtPost { margin-top:10px; line-height:18px; }
+.txtPost p { margin-bottom:10px; }
+.txtPost ul,
+.txtPost ol { margin:10px 0 10px 25px; }
+.txtPost ul li,
+.txtPost ol li { margin:2px 0; }
+.comentariosPosts { background:url(img/ic-coment.gif) no-repeat center left; padding-left:16px; float:right; clear:both; margin:10px 0; }
+
+.top-post,
+.bottom-post { margin:10px auto; text-align:center; }
+
+/* comentario dos posts*/
+.boxcomments { margin-bottom:20px; width:510px; }
+
+#comentarios { border-bottom:1px dotted #CCC; margin-bottom:15px; }
+#comentarios h2 { margin:20px 0 10px 0; }
+.comentarista { float:left; }
+.comentarista span { color:#CCC; font-size:10px; }
+.comentarista p { float:left; }
+#comentarios .avatar { float:left; margin:0 10px 5px 0; border:1px solid #CCC; padding:2px; }
+#comentarios .textoComentarios { clear:both; width:540px; margin-bottom:30px; }
+/* estilo do reply */
+.thdrpy { font-weight:bold; color:#333; margin:10px 0; }
+.thdrpy a { font-weight:normal; color:#F60; }
+.comment-childs { border: 1px solid #CCC !important; margin:10px 0; }
+.comment-childs p { margin-bottom:5px; } 
+.chalt { background-color: #FAFAFA !important; }
+#newcomment { border:1px dashed #CCC !important; padding:10px !important; }
+
+
+
+#commentform { border-top:1px solid #eee; border-bottom:1px solid #eee; margin:10px 0; padding:15px 0; width:540px; }
+#commentform label { display:block; margin:0; }
+#commentform input { width:170px; margin:0 5px 10px 0; padding:1px; }
+#commentform textarea { width:400px; margin:0 0 10px; padding:0; }
+#commentform #submit { margin:0 0 20px; }
+#commentform p { margin:5px 0; }
+ol.commentlist { margin:0 0 1px; padding:0; }
+ol.commentlist :hover { background:url(images/latestbck.gif) repeat-x; }
+ol.commentlist li { display:block; list-style:none; margin:0; padding:15px 15px 1px; }
+ol.commentlist li :hover { background:none; }
+ol.commentlist li.commenthead { display:block; list-style:none; margin:0; padding:5px 15px; }
+ol.commentlist li.commenthead h2 { margin:0; }
+ol.tblist { border-top:1px solid #fff; list-style:none; margin:0 0 1px; padding:5px 0 10px 0; }
+ol.tblist li { display:block; list-style:none; background:transparent url(img/setinha-verde.gif) 0 2px no-repeat; padding-left:15px; margin:0 0 15px 0; }
+
+blockquote { width:485px; margin-top:10px; padding:10px 10px 10px 35px; background:url(img/bg-blockquote.gif) no-repeat top left; color:#666; text-align:left; font-style:italic; }
+blockquote cite { margin-top:10px; display: block; }
+
+
+/* alinhamentos */
+#content .entry img.esquerda,
+#content .entry img.imgalignleft,
+#content .entry img.alignleft,
+#content .entry div.alignleft { margin:0px 10px 5px 0px; float:left; }
+#content .entry img.direita,
+#content .entry img.imgalignright,
+#content .entry img.alignright,
+#content .entry div.alignright { margin:0px 0px 5px 10px; float:right; }
+#content .entry img.aligncenter,
+#content .entry div.aligncenter { margin:0px auto 5px auto; clear:both; text-align:center; }
+#content .entry .paginador { clear:both; text-align:center; position:relative; top:20px; }
+.aligncenter,
+p object,
+.flashvideo embed { display:block; margin:5px auto; }
+.alignright { margin:0px 0px 5px 10px; float:right; }
+.alignleft { margin:0px 10px 5px 0px; float:left; }
+
+/* foto com legenda */
+.wp-caption { border:1px solid #ddd; text-align:center; background-color: #f3f3f3; padding-top:4px; margin:10px 0; -moz-border-radius:3px; -khtml-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; clear:both; }
+.wp-caption img { margin:0; padding:0; border:0 none; }
+.wp-caption p.wp-caption-text { font-size:11px; line-height:17px; padding:2px 0; margin: 0; }
+
+
+.boxInfoPost { border-top:1px solid #CCC; border-bottom:1px solid #CCC; margin:15px 0; padding:10px 0; clear:both; float:left; width:540px; }
+.caixaAutor p { margin-bottom:3px; text-align:left; line-height:18px; }
+.caixaAutor p.nomeAutor { font-weight:bold; font-size:14px; }
+.caixaAutor img { float:left; margin:0 8px 5px 0; }
+
+.postsRelacionados { clear:both; border-bottom:1px dotted #CCC; padding-bottom:10px; margin:10px 0; }
+.postsRelacionados h3 { background:url(img/post-relacionado.gif) no-repeat center left; padding-left:25px; font:16px Georgia, "Times New Roman", Times, serif; }
+.postsRelacionados ul { margin:10px 0 15px 0; }
+.postsRelacionados ul li { padding:3px 0; margin:3px 0; list-style:none; }
+.postsRelacionados ul li a { color:#666; }
+
+/* paginacao */
+#navegacao { clear:both;  text-align:right; }
+#navegacao .wp-pagenavi a { padding: 2px 4px; margin: 2px; text-decoration: none; border: 1px solid #F90; color: #000; background-color: #FFF;	}
+#navegacao .wp-pagenavi a:hover { border: 1px solid #F60; color: #000; background-color: #FFF; }
+#navegacao .wp-pagenavi span.pages { display:none; }
+#navegacao .wp-pagenavi span.current,
+#navegacao .wp-pagenavi span.extend { padding: 2px 4px; margin: 2px; color: #000; background-color: #FFF; }
+#navegacao .wp-pagenavi span.current { font-weight: bold; border:none; }
+#navegacao .wp-pagenavi span.extend { border: 1px solid #F90;  display:none; }
+
+/* sky */
+#sky {  width:120px; margin:109px 0 0 16px; float:left; }
+#sky div { margin-bottom:15px; }
+
+/* coluna */
+#coluna { width:270px; float:right; margin-top:92px; }
+#coluna h3 { font:18px Georgia, "Times New Roman", Times, serif; background:url(img/ic_post.gif) no-repeat top left; padding:5px 0 0 25px; margin-bottom:10px; }
+#coluna ul li { list-style:none; border-bottom:1px solid #CCC; margin-bottom:10px; padding-bottom:10px; }
+#coluna a { color:#333; }
+#coluna a:hover { color:#F90; }
+
+#enquete,
+#bannerQuadrado,
+#postsRecentes,
+#miniQuadrados,
+#tags,
+#patrocinio,
+#boxFacebook  { border-bottom:1px dotted #CCC; padding-bottom:15px; margin-bottom:15px; clear:both; }
+
+#boxFacebook { width:960px; margin:20px auto; border-top:1px dotted #CCC; padding-top:15px; position:relative; top:15px; }
+#boxFacebook h3 { font:18px Georgia, "Times New Roman", Times, serif; background:url(img/ic_post.gif) no-repeat top left; padding:5px 0 0 25px; margin-bottom:10px; }
+
+
+/* icones midia */
+#iconesMidias { width:270px; margin:65px 0 15px 0; float:left; clear:both; border-bottom:1px dotted #CCC; padding-bottom:15px; }
+#iconesMidias li { list-style:none; float:left; font:16px Georgia, "Times New Roman", Times, serif; border-bottom:none !important; padding-bottom:0 !important; margin-bottom:0 !important; }
+#iconesMidias li a { color:#333; padding-top:50px; }
+#icTwitter a { background:url(img/ic-twitter.jpg) no-repeat top center; }
+#icRSS a { background:url(img/ic-rss.jpg) no-repeat top center; padding:0 8px; }
+#icOrkut a { background:url(img/ic-orkut.jpg) no-repeat top center; }
+#icEMail a { background:url(img/ic-mail.jpg) no-repeat top center; }
+#icRSS,
+#icOrkut,
+#icEMail { margin-left:25px; }
+
+/* blogs amigos */
+#blogsAmigos { clear:both; border-bottom:1px dotted #CCC; padding:15px 0;  }
+#blogsAmigos p { margin:5px 0; }
+#blogsAmigos div img { width:50px; }
+
+
+/* submarino */
+#miniQuadrados { clear:both; width:270px; margin-bottom:15px; float:left; }
+.submarino1 { float:left; }
+.submarino2 { margin-left:0px; float:right; }
+
+/* banner quadrado */
+#bannerQuadrado {  background:url(img/bg-bannerquadrado.gif) no-repeat top center; padding:9px 0 15px 9px; width:260px; height:260px; }
+
+/* categorias e arquivo */
+#categorias { float:left; width:130px; }
+#arquivo { float:right; width:130px; }
+
+/* tags */
+#tags { border-top:1px dotted #CCC; padding-top:15px; margin-top:15px; }
+#tags div { text-align:center; }
+#tags div a { margin:3px 5px; color:#999; }
+#tags div a:hover { color:#333; }
+
+/* rodape */
+.contentRodape { width:960px; margin:0 auto; }
+.contentRodape h3 { font:20px Georgia, "Times New Roman", Times, serif; background:url(img/ic-fd-amarelo.gif) no-repeat top left; padding:3px 0 3px 28px; }
+
+#semi-rodape { background:#FC0 url(img/tarja-top-semirodape.gif) repeat-x top left; color:#000; margin-top:15px; float:left; padding:20px 0; width:100%; }
+#sobre { width:270px; float:left; }
+#sobre li img { width:70px; }
+#ultimosComentarios { width:350px; float:left; margin-left:40px; }
+#links { width:270px; float:right;  }
+
+#sobre h4 { margin:15px 0 5px 0; }
+#sobre ul li { list-style:none; float:left; width:80px; }
+#sobre h5 { font:bold 14px Arial, Helvetica, sans-serif; }
+#sobre h5 a { color:#000; }
+#autor-Antino { margin:0 15px; }
+#sobre ul li p { font-size:11px; }
+
+#ultimosComentarios li { border-bottom:1px solid #FFF; margin:10px 0; padding-bottom:10px; list-style:none; }
+#ultimosComentarios li span { font-weight:bold; }
+#ultimosComentarios li a { font-weight:bold; color:#000; }
+
+#links li { border-bottom:1px solid #FFF; margin:5px 3px 10px 3px; padding-bottom:10px; list-style:none; width:125px; float:left; }
+#links li a { color:#333; }
+
+#rodape { background:#000; border-top:3px solid #FFF; clear:both; color:#FFF; font-size:11px; padding:15px 0; }
+#rodape p { margin-bottom:5px; }
+
+
+/* EQUIPE */
+#Equipe .cxPost { border-bottom:1px dotted #CCC; padding-bottom:15px; margin-bottom:25px; }
+#Equipe .cxPost p { margin-bottom:10px; line-height:18px; }
+
+
+/* CONTATO */
+.pgContato { font-size:11px; }
+.pgContato p { margin-bottom:10px; }
+#ctForm { width:460px; margin:0 auto;}
+#ctForm p { margin:10px 0 5px 0; color:#666; }
+#ctForm input { width:300px; height:20px; padding:2px; border:1px solid #666; font:12px "Trebuschet MS",Verdana, Arial, Helvetica, sans-serif; color:#333; }
+#ctForm input#ctDDD { width:50px; text-align:center; }
+#ctForm input#ctFone { width:240px; }
+#ctForm input#btEnviarCt { width:150px; height:35px; position:relative; left:239px; cursor:pointer; }
+#nome { margin-left:35px; }
+#fone { margin-left:32px; }
+#email { margin-left:32px; }
+#url { margin-left:23px; }
+#assunto { margin-left:24px; }
+#mensagem { float:left; margin:0 5px 0 7px; }
+#ctForm #ctMsgs { width:300px; height:200px; padding:2px; border:1px solid #666; font:12px "Trebuschet MS",Verdana, Arial, Helvetica, sans-serif; color:#333; }
+p.legenda { font:italic 11px Verdana, Arial, Helvetica, sans-serif; color:#999; margin-left:30px; }
